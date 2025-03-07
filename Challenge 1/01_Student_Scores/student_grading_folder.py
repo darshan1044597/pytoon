@@ -1,4 +1,4 @@
--#-----------------------------------------------------------------------------
+#-----------------------------------------------------------------------------
 # Name:        Student_grading
 # Purpose:     Create a Python program that asks for a student's score and then provides a grade based on the score
 #
