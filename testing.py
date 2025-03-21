@@ -11,14 +11,8 @@
 #a=random.randint(1,10)
 #print(a)
 
-print ("welcome to the countdown timer")
-import time
-for i in range(10,0,-1):
-    print(i)
-    user_stop = input("Enter stop to cancel or press Enter to continue:")
-    if user_stop == "stop":
-        print("Timer stopped")
-        break
-#    else:
-#        print("Timer started")
-#    time.sleep(1)
+print("Welcome to the Grocery List")
+grocery_list = ['apples', 'bananas', 'milk', 'carrots', 'bread']
+grocery_list.remove('bananas')
+grocery_list.insert(1, 'grapes')
+print(grocery_list)
