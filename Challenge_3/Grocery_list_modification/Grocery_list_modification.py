@@ -7,10 +7,21 @@
 # Created:     18-Mar-2025
 # Updated:     21-Mar-2025
 #-----------------------------------------------------------------------------
+# Print a welcome message to the user
 print("Welcome to the Grocery List")
+# Define the initial grocery list
 grocery_list = ['apples', 'bananas', 'milk', 'carrots', 'bread']
-grocery_list.remove('bananas')
-grocery_list.insert(1, 'grapes')
+# Print the original list
 print(grocery_list)
+# Remove the 'bananas' from the grocery list
+grocery_list.remove('bananas')
+# Insert the item 'grapes'
+grocery_list.insert(1, 'grapes')
+# Print a message indicating the updated list is being shown
 print("updated grocery list")
-print(grocery_list[1:2])
+# Print the changed grocery list to display the changes
+print(grocery_list)
+# Prints the thrid item
+print ("third item in the list is:")
+# Print the item at index 1 (the newly inserted 'grapes') as a sublist
+print(grocery_list[2:3])
