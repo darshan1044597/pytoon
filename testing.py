@@ -11,8 +11,15 @@
 #a=random.randint(1,10)
 #print(a)
 
-print("Welcome to the Grocery List")
-grocery_list = ['apples', 'bananas', 'milk', 'carrots', 'bread']
-grocery_list.remove('bananas')
-grocery_list.insert(1, 'grapes')
-print(grocery_list)
+#print("Welcome to the Grocery List")
+#grocery_list = ['apples', 'bananas', 'milk', 'carrots', 'bread']
+#grocery_list.remove('bananas')
+#grocery_list.insert(1, 'grapes')
+#print(grocery_list)
+
+fruit_tuple = ("apple", "banana", "cherry")
+print(fruit_tuple)
+a, b, c = fruit_tuple
+print(a)
+print(c)
+print(b)
