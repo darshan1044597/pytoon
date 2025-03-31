@@ -13,9 +13,9 @@ print("Welcome to swapping values using tuples, here you enter two numbers and t
 num1 = int(input("Enter the first number: "))
 # ask the user to enter the second number and convert the input to an integer
 num2 = int(input("Enter the second number: "))
-# make a tuples for num1 and num2
-num1, num2 = (num1, num2)
-# Swap the values of num1 and num2
-num1, num2 = num2, num1
-# Print the swapped values to the user
-print("The swapped values are:", num1, num2)
+# creates a tuple with the input given
+tuple = (num1, num2)
+# prints a message to say what the swapped values are
+print("the swapped tuple is indexes are:")
+# swaps the tuple index values
+print(tuple[1], tuple[0])

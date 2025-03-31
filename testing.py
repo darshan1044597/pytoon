@@ -17,9 +17,15 @@
 #grocery_list.insert(1, 'grapes')
 #print(grocery_list)
 
-fruit_tuple = ("apple", "banana", "cherry")
-print(fruit_tuple)
-a, b, c = fruit_tuple
-print(a)
-print(c)
-print(b)
+# Print a welcome message
+print("Welcome to swapping values using tuples, here you enter two numbers and the program will swap their places")
+# tell the user to enter the first number and convert the input to an integer
+num1 = int(input("Enter the first number: "))
+# ask the user to enter the second number and convert the input to an integer
+num2 = int(input("Enter the second number: "))
+# creates a tuple with the input given
+tuple = (num1, num2)
+# prints a message to say what the swapped values are
+print("the swapped tuple is indexes are:")
+# swaps the tuple index values
+print(tuple[1], tuple[0])
