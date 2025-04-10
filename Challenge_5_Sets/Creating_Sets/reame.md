@@ -5,8 +5,8 @@ Understanding how to define and initialize sets in Python.
 ## Objective:
 Create and print a set with unique elements.
 ## What you need to do:
-- Create a set called `fruits` with the following items: `'apple'`, `'banana'`, and `'cherry'`.
-- Print that set to see the result.
+- make a set called `fruits` with the items: `'apple'`, `'banana'`, and `'cherry'`.
+- print that set to see the result.
 
 ### Example Code:
 

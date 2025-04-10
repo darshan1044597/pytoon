@@ -17,7 +17,7 @@ Modify a set efficiently
 letters = {'a', 'b', 'c'}
 # Add multiple letters at once using the update() method
 letters.update({'d', 'e', 'f'})
-# Remove the letter 'b' using discard() (it won't throw an error if 'b' doesn't exist)
+# Remove the letter 'b' using discard() 
 letters.discard('b')
 # Print the updated set
 print(letters)
